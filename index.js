@@ -1,7 +1,7 @@
 var katzDeliLine = []; // Line at Katz deli is empty so an empty array is used
  function takeANumber(katzDeliLine, name){
    katzDeliLine.push(name);
-   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."
+   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."// Used katzDeliLine.length to indecate the correct position in line array lenth is 1 based array index is 0
 
  }
   function nowServing(katzDeliLine){
